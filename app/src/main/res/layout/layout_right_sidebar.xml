@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/right_sidebar"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="end"
+    android:padding="2dp"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:layout_marginEnd="8dp">
+
+    <ImageButton
+        android:id="@+id/note_favorite_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/favourite"
+        android:background="@android:color/transparent"
+        android:contentDescription="Favourite"/>
+
+    <ImageButton
+        android:id="@+id/note_urgent_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/urgent"
+        android:background="@android:color/transparent"
+        android:contentDescription="Urgent"/>
+
+    <ImageButton
+        android:id="@+id/btn_zoom_in"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/zoom_in"
+        android:background="@android:color/transparent"
+        android:contentDescription="ZoomIn"/>
+
+    <ImageButton
+        android:id="@+id/btn_zoom_out"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/zoom_out"
+        android:background="@android:color/transparent"
+        android:contentDescription="ZoomOut"/>
+
+    <ImageButton
+        android:id="@+id/btn_undo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/undo"
+        android:background="@android:color/transparent"
+        android:contentDescription="Undo"/>
+
+    <ImageButton
+        android:id="@+id/btn_redo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/redo"
+        android:background="@android:color/transparent"
+        android:contentDescription="Redo"/>
+
+    <ImageButton
+        android:id="@+id/btn_change_background"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/style"
+        android:background="@android:color/transparent"
+        android:contentDescription="Style"/>
+
+    <ImageButton
+        android:id="@+id/btn_mic"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/mic"
+        android:background="@android:color/transparent"
+        android:contentDescription="Recorder"/>
+
+    <ImageButton
+        android:id="@+id/btn_save_note"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/save"
+        android:background="@android:color/transparent"
+        android:contentDescription="Edit"/>
+
+    <ImageButton
+        android:id="@+id/btn_edit_text_content"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/edit1"
+        android:background="@android:color/transparent"
+        android:contentDescription="Edit"/>
+
+    <ImageButton
+        android:id="@+id/btn_delete"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/delete1"
+        android:background="@android:color/transparent"
+        android:contentDescription="Delete"/>
+
+
+</LinearLayout>

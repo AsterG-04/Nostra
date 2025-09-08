@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NOSTRA</string>
+    <string name="nav_menu">Navigation Drawer Menu</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="welcome_note">Welcome to Class B</string>
+    <string name="content_des">Add Notes...</string>
+    <string name="note_title">Nostra</string>
+    <string name="hint_search">Search Notes...</string>
+    <string name="hint_title">Notes title here</string>
+    <string name="hint_msg">Your Message Here</string>
+    <string name="edit_button">Edit Note</string>
+    <string name="delete_button">Delete Note</string>
+    <string name="edit_profile">Edit Profile</string>
+</resources>

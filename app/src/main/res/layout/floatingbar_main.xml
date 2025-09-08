@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/mainContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/sectionA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="start"
+            android:visibility="visible"
+            android:background="@android:color/transparent">
+
+            <ImageButton
+                android:id="@+id/btn_text"
+                android:layout_width="65dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="Text"
+                android:src="@drawable/text" />
+
+            <ImageButton
+                android:id="@+id/btn_fonts"
+                android:layout_width="65dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="Font"
+                android:src="@drawable/choose_font" />
+
+            <ImageButton
+                android:id="@+id/btn_checklist"
+                android:layout_width="65dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="CheckList"
+                android:src="@drawable/checklist" />
+
+            <ImageButton
+                android:id="@+id/btn_image"
+                android:layout_width="65dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="Image"
+                android:src="@drawable/image" />
+
+            <ImageButton
+                android:id="@+id/btn_list"
+                android:layout_width="65dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="List"
+                android:src="@drawable/list" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sectionB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/btn_text2"
+                android:layout_width="65dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="Text"
+                android:src="@drawable/text" />
+
+            <ImageButton
+                android:id="@+id/btn_bold"
+                android:layout_width="65dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="Bold"
+                android:src="@drawable/format_bold" />
+
+            <ImageButton
+                android:id="@+id/btn_italic"
+                android:layout_width="65dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="Italic"
+                android:src="@drawable/format_italic" />
+
+            <ImageButton
+                android:id="@+id/btn_underline"
+                android:layout_width="65dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="Underline"
+                android:src="@drawable/format_underlined" />
+
+            <ImageButton
+                android:id="@+id/btn_strike_through"
+                android:layout_width="65dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="Strikethrough"
+                android:src="@drawable/format_strikethrough" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sectionC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/btn_fonts1"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="Fonts"
+                android:src="@drawable/choose_font" />
+
+            <ImageButton
+                android:id="@+id/btn_font_slab_serif"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="SlabSerif"
+                android:src="@drawable/font_slab_serif" />
+
+            <ImageButton
+                android:id="@+id/btn_font_serif"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="Serif"
+                android:src="@drawable/font_serif" />
+
+            <ImageButton
+                android:id="@+id/font_script"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="Script"
+                android:src="@drawable/font_script" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sectionD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/btn_list1"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="List"
+                android:src="@drawable/list" />
+
+            <ImageButton
+                android:id="@+id/btn_circlelist"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="CircleList"
+                android:src="@drawable/circle_list" />
+
+            <ImageButton
+                android:id="@+id/btn_squarelist"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="SquareList"
+                android:src="@drawable/square_list" />
+
+            <ImageButton
+                android:id="@+id/btn_numberlist"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="NumberList"
+                android:src="@drawable/number_list" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="0dp"
+            android:gravity="center_vertical"
+            android:background="@color/menuBackground">
+
+            <Button
+                android:id="@+id/btnEdit1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/edit_button"
+                android:padding="10dp"
+                android:textColor="@color/itemBackground"
+                android:backgroundTint="@color/borderColor"
+                android:layout_marginEnd="4dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

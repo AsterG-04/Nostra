@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home_12"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/favourtie"
+            android:icon="@drawable/favourite"
+            android:title="Favourite" />
+
+        <item
+            android:id="@+id/urgent"
+            android:icon="@drawable/urgent"
+            android:title="Urgent" />
+        
+
+    </group>
+
+    <item android:title="Other">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout2"
+                android:title="Logout" />
+
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="Exit" />
+        </menu>
+    </item>
+</menu>

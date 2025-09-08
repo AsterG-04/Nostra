@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Email to Edit Profile"
+        android:textColor="@color/borderColor"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/etEmailInput"
+        android:inputType="textEmailAddress"
+        android:hint="Enter your email"
+        android:textColorHint="@color/borderColor"
+        android:textColor="@color/borderColor"
+        android:backgroundTint="@color/menuBackground"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"/>
+    <Button
+        android:id="@+id/btnConfirmEmail"
+        android:text="OK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/itemBackground"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/borderColor"
+        android:textSize="24sp" />
+
+</LinearLayout>
