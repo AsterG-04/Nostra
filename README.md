@@ -17,7 +17,7 @@ IDE      : Android Studio
 🚀 Getting Started
 Clone the repository:
 
-1. git clone https://github.com/yourusername/NoteTakingApp.git
+1. git clone [https://github.com/AsterG-04/Nostra.git]
 2. Open the project in Android Studio.
 3. Build and run on an emulator or Android device.
 4. Start taking notes securely!
